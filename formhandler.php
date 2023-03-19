@@ -5,7 +5,7 @@ if(isset($_POST['submit'])) {
     $fio = $_POST['fio'];
     $phone = $_POST['phone'];
 
-    $email = "roma.korchnev@mail.ru";
+    $email = "rbru-metrika@yandex.ru";
     $to  = "<$email>";  
     $subject = "Данные формы (Тестовое задание от Rocket Business)"; 
 
