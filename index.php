@@ -1,9 +1,9 @@
 <?php
 
 $server = 'localhost'; 
-$username = 'u1378317_default'; 
-$password = 'mxFH81mtLMv30x5H'; 
-$dbname = 'u1378317_rocketbusiness';
+$username = 'username'; 
+$password = 'password'; 
+$dbname = 'rocketbusiness';
 
 $connect = mysqli_connect($server, $username, $password, $dbname);
 mysqli_set_charset($connect, "utf8mb4");
